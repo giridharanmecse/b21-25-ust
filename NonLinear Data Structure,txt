@@ -1,0 +1,83 @@
+Linear vs Non-Linear Data Structures (Diagrammatic Difference)
+
+Linear Data Structure:
+----------------------
+Elements are arranged in a sequential manner.
+Each element has a unique predecessor and successor (except first and last).
+
+Example: Array, Linked List, Queue, Stack
+
+[ 1 ] -> [ 2 ] -> [ 3 ] -> [ 4 ]
+
+
+Non-Linear Data Structure:
+--------------------------
+Elements are arranged in a hierarchical manner.
+Each element can be connected to multiple elements.
+
+Example: Tree, Graph
+
+    [ 1 ]
+     /   \
+   [ 2 ] [ 3 ]
+       /   \
+    [ 4 ] [ 5 ]
+
+Or (Graph):
+
+[ 1 ]---[ 2 ]
+  |     /   \
+[ 3 ]--[ 4 ]--[ 5 ]
+
+
+Types of Trees in Data Structures
+---------------------------------
+
+1. **Binary Tree**  
+  Each node has at most two children (left and right).
+
+2. **Binary Search Tree (BST)**  
+  A binary tree where the left child is less than the parent and the right child is greater.
+
+3. **AVL Tree**  
+  A self-balancing binary search tree.
+
+4. **B-Tree**  
+  A balanced tree used in databases and file systems.
+
+5. **Heap Tree**  
+  A complete binary tree used for priority queues.
+
+6. **Trie**  
+  A tree used for efficient retrieval of strings.
+
+### Advantages of Tree Data Structures
+
+- **Hierarchical Representation:** Naturally represents hierarchical data (e.g., file systems).
+- **Efficient Searching and Sorting:** Trees like BSTs and AVL trees provide fast search, insert, and delete operations.
+- **Flexible Data Storage:** Can store data with dynamic relationships (e.g., graphs, tries).
+- **Balanced Trees:** Self-balancing trees maintain performance even with many operations.
+
+### Disadvantages of Tree Data Structures
+
+- **Complex Implementation:** More complex to implement compared to linear structures.
+- **Memory Overhead:** Requires extra memory for pointers/references.
+- **Balancing Required:** Some trees need balancing to maintain efficiency.
+- **Difficult Debugging:** Tree operations can be harder to debug and visualize.
+
+### Types of Binary Trees
+
+1. **Full Binary Tree**  
+  Every node has either 0 or 2 children.
+
+2. **Perfect Binary Tree**  
+  All internal nodes have two children and all leaves are at the same level.
+
+3. **Complete Binary Tree**  
+  All levels are completely filled except possibly the last, which is filled from left to right.
+
+4. **Degenerate (or Skewed) Binary Tree**  
+  Each parent node has only one child, making the tree behave like a linked list.
+
+5. **Balanced Binary Tree**  
+  The height of the left and right subtrees of any node differ by at most one.
